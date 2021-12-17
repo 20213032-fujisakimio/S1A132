@@ -76,7 +76,7 @@ li {
 .header {
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 100;
   width: 100%;
   background: linear-gradient(-135deg, #98FB98,#008BBB);
   background-color: #333;
@@ -212,14 +212,14 @@ li {
   display: inline-block;
   max-width: 180px;
   text-align: center;
-  background-color: #293b6a;
+  background-color: #4682B4;
   font-size: 16px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 16px;
   border: 1px dashed #FFF;
-  box-shadow: 0px 0px 0px 2px #293b6a;/* box-shadowで外枠を */
+  box-shadow: 0px 0px 0px 2px #4682B4;/* box-shadowで外枠を */
 }
 
 .btn-denim:hover {
@@ -326,7 +326,7 @@ li {
   font-weight: bold;
   padding: 12px 24px;
   border-radius: 4px;
-  background-image: linear-gradient(-90deg, #89eb75, #f1e753);
+  background-image: linear-gradient(-90deg, #89eb75, #FF99CC);
   transition: .5s;
   background-size: 200%;
 }
@@ -336,7 +336,7 @@ li {
 }
 
 /*--------------------------------
- Skill
+　Skill
 ---------------------------------*/
 .skill-list {
   display: flex;
@@ -422,7 +422,7 @@ li {
 }
 
 /*--------------------------------
- フッター
+  フッター
 ---------------------------------*/
 .footer {
   padding: 30px;
