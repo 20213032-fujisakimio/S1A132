@@ -326,7 +326,7 @@ li {
   font-weight: bold;
   padding: 12px 24px;
   border-radius: 4px;
-  background-image: linear-gradient(-90deg, #89eb75, #FF99CC);
+  background-image: linear-gradient(-90deg, #008080, #ee82ee);
   transition: .5s;
   background-size: 200%;
 }
@@ -436,7 +436,7 @@ li {
 }
 
 /*--------------------------------
- 下層：Worksページ
+  下層：Worksページ
 ---------------------------------*/
 .article {
   padding: 80px 0;
