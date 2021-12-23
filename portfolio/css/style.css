@@ -188,6 +188,11 @@ li {
 .main-visual-text p:not(:last-child) {
   margin-bottom: 30px;
 }
+.main-logo {
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+}
 
 /*--------------------------------
   Works
