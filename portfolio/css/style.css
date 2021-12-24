@@ -218,7 +218,7 @@ li {
 
 .btn-denim {
   display: inline-block;
-  max-width: 180px;
+  max-width: 150px;
   text-align: center;
   background-color: #4682B4;
   font-size: 16px;
@@ -277,7 +277,7 @@ li {
 
 .btn-box {
   display: inline-block;
-  max-width: 180px;
+  max-width: 150px;
   text-align: center;
   font-size: 16px;
   color: #9ec34b;
@@ -326,7 +326,7 @@ li {
 
 .btn-gradation {
   display: inline-block;
-  max-width: 180px;
+  max-width: 135px;
   text-align: center;
   font-size: 16px;
   color: #FFF;
@@ -486,12 +486,7 @@ li {
 .home-link {
   text-align: center;
 }
-.main-visual-img {
-  width: 150px;
-  margin: 0 auto;
-  margin-bottom: 25px;
-  animation: loading 6s linear 0s infinite; 
-}
+
 @keyframes loading {
   0% {transform: rotate(0deg);}
   25% {transform: rotate(90deg);}
@@ -577,7 +572,12 @@ li {
     display: block;
   }
 
-
+  .main-visual-img {
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    animation: loading 6s linear 0s infinite; 
+  }
   .main-visual-text p:not(:last-child) {
     margin-bottom: 20px;
   }
