@@ -189,9 +189,11 @@ li {
   margin-bottom: 30px;
 }
 .main-logo {
-  width: 65%;
+  position: relative;
+  width: 50%;
   margin: 0 auto;
   text-align: center;
+  
 }
 
 /*--------------------------------
@@ -374,7 +376,7 @@ li {
 }
 
 /*--------------------------------
- About
+  About
 ---------------------------------*/
 .profile {
   display: flex;
@@ -484,7 +486,19 @@ li {
 .home-link {
   text-align: center;
 }
-
+.main-visual-img {
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  animation: loading 6s linear 0s infinite; 
+}
+@keyframes loading {
+  0% {transform: rotate(0deg);}
+  25% {transform: rotate(90deg);}
+  50% {transform: rotate(180deg);}
+  75% {transform: rotate(270deg);}
+  100% {transform: rotate(360deg);}
+}
 /*media Queries 767
 ----------------------------------------------------*/
 @media screen and (max-width: 767px) {
@@ -562,11 +576,7 @@ li {
   .main-visual-profile {
     display: block;
   }
-  .main-visual-img {
-    width: 150px;
-    margin: 0 auto;
-    margin-bottom: 25px;
-  }
+
 
   .main-visual-text p:not(:last-child) {
     margin-bottom: 20px;
