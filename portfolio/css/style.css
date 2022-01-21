@@ -139,6 +139,9 @@ li {
   width: 100%;
 }
 
+.main-logo {
+  width: 25%;
+}
 /*--------------------------------
   メインビジュアル
 ---------------------------------*/
@@ -188,13 +191,7 @@ li {
 .main-visual-text p:not(:last-child) {
   margin-bottom: 30px;
 }
-.main-logo {
-  position: relative;
-  width: 50%;
-  margin: 0 auto;
-  text-align: center;
-  
-}
+
 
 /*--------------------------------
   Works
@@ -220,6 +217,7 @@ li {
   display: inline-block;
   max-width: 150px;
   text-align: center;
+  height: 30px;
   background-color: #4682B4;
   font-size: 16px;
   color: #FFF;
@@ -237,7 +235,7 @@ li {
 .btn-open {
   display: inline-block;
   max-width: 180px;
-  height:50px;
+  height: 47px;
   text-align: center;
   background-color: #9ec34b;
   font-size: 16px;
@@ -444,7 +442,7 @@ li {
 }
 
 /*--------------------------------
-  下層：Worksページ
+  下層：Worksページw
 ---------------------------------*/
 .article {
   padding: 80px 0;
@@ -576,7 +574,7 @@ li {
     width: 150px;
     margin: 0 auto;
     margin-bottom: 25px;
-    animation: loading 6s linear 0s infinite; 
+    /* animation: loading 6s linear 0s infinite;  */
   }
   .main-visual-text p:not(:last-child) {
     margin-bottom: 20px;
