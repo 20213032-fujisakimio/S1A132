@@ -574,7 +574,7 @@ li {
     width: 150px;
     margin: 0 auto;
     margin-bottom: 25px;
-    /* animation: loading 6s linear 0s infinite;  */
+    animation: loading 6s linear 0s infinite; 
   }
   .main-visual-text p:not(:last-child) {
     margin-bottom: 20px;
