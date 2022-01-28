@@ -627,6 +627,12 @@ li {
   /* フッター */
   .footer {
     padding: 20px;
+    text-align: center;
+  }
+  .footer-sns{
+    width: 30px;
+    margin: 0 auto;
+    padding: 10px;
   }
 
   /* 下層ページ */
