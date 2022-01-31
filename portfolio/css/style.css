@@ -485,6 +485,23 @@ li {
   text-align: center;
 }
 
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+.footer-snslogo ul{
+  display: inline-block;
+  margin-top: 25px;
+  margin-right: 100px;
+}
+.footer-snslogo li{
+  display: inline-block;
+  width: 30px;
+  list-style: none;
+  margin-right: 0;
+  padding: 10px;
+}
+
 @keyframes loading {
   0% {transform: rotate(0deg);}
   25% {transform: rotate(90deg);}
@@ -647,6 +664,7 @@ li {
   margin-right: 0;
   padding: 10px;
 }
+
 
   /* 下層ページ */
   .article {
