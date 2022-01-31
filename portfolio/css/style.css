@@ -629,11 +629,24 @@ li {
     padding: 20px;
     text-align: center;
   }
-  .footer-sns{
+  /* .footer-sns{
     width: 30px;
     margin: 0 auto;
     padding: 10px;
-  }
+  } */
+
+.footer-snslogo ul{
+  display: inline-block;
+  margin-top: 25px;
+  margin-right: 100px;
+}
+.footer-snslogo li{
+  display: inline-block;
+  width: 30px;
+  list-style: none;
+  margin-right: 0;
+  padding: 10px;
+}
 
   /* 下層ページ */
   .article {
